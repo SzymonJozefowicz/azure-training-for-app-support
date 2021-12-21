@@ -84,5 +84,7 @@ Monitoring and Alerts
 
 
 
+#### Sample scripts
 
+az group create --name eur-infra-sandbox-szymon-rg --location westeurope --tags Owner='Szymon Jozefowicz' Project='Azure For App Support' Environment='Sandbox' Application='Azure For App Support'
 
