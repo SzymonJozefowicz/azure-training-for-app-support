@@ -11,13 +11,11 @@ Regions
 Types of resources IaaS,PaaS,SaaS,KaaS  
 Resource Groups  
 Creating resource group using    
-
-*     portal
-*     cli
-*     powershell
-*     terraform
-*     biceps
-
+    * portal
+    * cli
+    * powershell
+    * terraform
+    * biceps
 Storage Accounts  
 Virtual Networks  
 Virtual Machines  
