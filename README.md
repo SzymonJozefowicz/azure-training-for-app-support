@@ -10,7 +10,8 @@ Subscriptions
 Regions  
 Types of resources IaaS,PaaS,SaaS,KaaS  
 Resource Groups  
-Creating resource group using    
+Creating resource group using
+
     * portal
     * cli
     * powershell
