@@ -5,10 +5,11 @@
 Topics:
 
 Azure Tenants  
-Identity AAD and RBAC  
+Identity AAD  
 Subscriptions  
 Regions  
 Types of resources IaaS,PaaS,SaaS,KaaS  
+Types of access RBAC
 Resource Groups  
 Creating resource group using
 
