@@ -38,19 +38,19 @@ Monitoring and Alerts
 #### Windows Subsystem for Linux
 [How to install WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
 
-####Git  
+#### Git  
 [How to install Git on Ubuntu 20.04](https://linuxconfig.org/how-to-install-git-on-ubuntu-20-04-lts-focal-fossa-linux)
 
     sudo apt update
     sudo apt install git
 
-####Azure CLI
+#### Azure CLI
 [How to install Azure Command Line Interface](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
 
     curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 
-####Powershell
+#### Powershell
 [How to install Powershell on Linux](https://docs.microsoft.com/en-us/powershell/scripting/install/install-ubuntu?view=powershell-7.2)
 
 
@@ -70,7 +70,7 @@ Monitoring and Alerts
     pwsh
 
 
-####Terraform
+#### Terraform
 
 [How to install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
