@@ -1,0 +1,1 @@
+# azure-training-for-app-support
