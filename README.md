@@ -22,7 +22,31 @@ Storage Accounts
 Virtual Networks  
 Virtual Machines  
 Recovery Service  
-Monitoring and Alerts  
+Monitoring and Alerts for VM
+
+#### Part 2: Running Applications in Azure
+
+Topics:
+
+Containers Basics 
+(Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages)[https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree]
+(Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers)[https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview] 
+(Applicaton Security)[https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies]
+Monitoring and Alerts for Applications
+
+#### Part 3: Running Applications in Azure
+
+Topics:
+
+Containers Basics 
+(Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages)[https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree]
+(Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers)[https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview] 
+(Applicaton Security)[https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies]
+Monitoring and Alerts for Applications
+
+
+
+
 
 #### Links:
 [Azure Documentation](https://docs.microsoft.com/en-us/azure/?product=popular)  
