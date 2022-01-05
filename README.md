@@ -29,9 +29,9 @@ Monitoring and Alerts for VM
 Topics:
 
 Containers Basics 
-[Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
-[Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview) 
-[Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)
+[Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)  
+[Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)  
+[Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)  
 Monitoring and Alerts for Applications
 
 #### Part 3: Deployin Applications in Azure
