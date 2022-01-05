@@ -1,9 +1,9 @@
 # Azure for Application Support
 
-#### Part 1: Azure Fundametals
+## Part 1: Azure Fundametals
 
 Topics:
-
+#### Meeting 1
 Azure Tenants  
 Identity AAD  
 Subscriptions  
@@ -11,6 +11,7 @@ Regions
 Types of resources IaaS,PaaS,SaaS,KaaS  
 Types of access RBAC  
 Resource Groups  
+#### Meeting 2
 Creating resource group using
 
     * portal
@@ -19,20 +20,22 @@ Creating resource group using
     * terraform
     * bicep
 Storage Accounts  
+
+#### Meeting 3
 Virtual Networks  
 Virtual Machines  
 Recovery Service  
 Monitoring and Alerts for VM
 
-#### Part 2: Running Applications in Azure
+## Part 2: Running Applications in Azure
 
 Topics:
 
-Containers Basics 
-[Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)  
-[Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)  
-[Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)  
-Monitoring and Alerts for Applications
+* Containers Basics  
+* [Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)  
+* [Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)  
+* [Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)  
+* Monitoring and Alerts for Applications
 
 #### Part 3: Deployin Applications in Azure
 
