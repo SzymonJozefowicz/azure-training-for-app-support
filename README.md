@@ -17,7 +17,7 @@ Creating resource group using
     * cli
     * powershell
     * terraform
-    * biceps
+    * bicep
 Storage Accounts  
 Virtual Networks  
 Virtual Machines  
