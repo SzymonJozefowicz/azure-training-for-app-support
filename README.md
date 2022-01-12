@@ -4,22 +4,21 @@
 
 Topics:
 #### Meeting 1
-Azure Tenants  
-Identity AAD  
-Subscriptions  
-Regions  
-Types of resources IaaS,PaaS,SaaS,KaaS  
-Types of access RBAC  
-Resource Groups  
+* Azure Tenants  
+* Identity AAD  
+* Subscriptions  
+* Regions  
+* Types of resources IaaS,PaaS,SaaS,KaaS  
+* Types of access RBAC  
+* Resource Groups  
 #### Meeting 2
-Creating resource group using
+* Creating resource group using
 
-    * portal
-    * cli
-    * powershell
-    * terraform
-    * bicep
-Storage Accounts  
+    - portal
+    - cli
+    - terraform
+
+* Storage Accounts  
 
 #### Meeting 3
 * Virtual Machines
