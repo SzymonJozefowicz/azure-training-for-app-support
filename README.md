@@ -23,7 +23,8 @@ Storage Accounts
 
 #### Meeting 3
 Virtual Networks  
-Virtual Machines  
+Virtual Machines
+Bastion Hosts
 Recovery Service  
 Monitoring and Alerts for VM
 
