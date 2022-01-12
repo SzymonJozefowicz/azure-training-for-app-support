@@ -22,11 +22,14 @@ Creating resource group using
 Storage Accounts  
 
 #### Meeting 3
-Virtual Networks  
-Virtual Machines  
-Bastion Hosts  
-Recovery Service   
-Monitoring and Alerts for VM
+* Virtual Machines
+* Virtual Networks  
+ 
+#### Meeting 4 
+
+* Bastion Hosts  
+* Recovery Service   
+* Monitoring and Alerts for VM
 
 ## Part 2: Running Applications in Azure
 
