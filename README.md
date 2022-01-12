@@ -23,9 +23,9 @@ Storage Accounts
 
 #### Meeting 3
 Virtual Networks  
-Virtual Machines
-Bastion Hosts
-Recovery Service  
+Virtual Machines  
+Bastion Hosts  
+Recovery Service   
 Monitoring and Alerts for VM
 
 ## Part 2: Running Applications in Azure
