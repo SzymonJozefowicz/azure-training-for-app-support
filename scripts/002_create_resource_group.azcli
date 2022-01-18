@@ -1,0 +1,3 @@
+#Login to Azure using az login and select subscription using az account set -s "EUR INFRA Sandbox"
+#Create resource group
+az group create --name eur-infra-sandbox-szymon-rg --location westeurope --tags Owner='Szymon Jozefowicz' Project='Azure For App Support' Environment='Sandbox' Application='Azure For App Support'

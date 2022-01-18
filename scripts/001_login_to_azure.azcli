@@ -1,0 +1,8 @@
+# Login to Azure
+az login
+
+#Select subscription
+az account set --subscription "EUR INFRA Sandbox"
+
+#Check my account
+az account show -o table
