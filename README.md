@@ -34,18 +34,29 @@ Topics:
 
 Topics:
 
+#### Meeting 5 
+
 * Containers Basics  
 * [Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)  
 * [Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)  
 * [Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)  
 * Monitoring and Alerts for Applications
 
-#### Part 3: Deployin Applications in Azure
+#### Part 3: Deploying Applications in Azure
 
 Topics:
+Deploying application to VM
+Deploying application to Web App Service
+Deploying application to K8s (AKS)
+API Deployments using APIM
 
+#### Part 4: Operation and maintenance of Applications in Azure
 
-
+Topics:
+Deploying application to VM
+Deploying application to Web App Service
+Deploying application to K8s (AKS)
+API Deployments using APIM
 
 
 #### Links:
