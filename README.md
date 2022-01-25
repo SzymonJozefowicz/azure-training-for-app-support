@@ -45,11 +45,13 @@ Topics:
 #### Part 3: Deploying Applications in Azure
 
 Topics:
-Deploying application to VM
-Deploying application to Web App Service
-Deploying application to K8s (AKS)
-API Deployments using APIM
-
+* Building application  
+* Building containerized application  
+* Deploying application to VM  
+* Deploying application to Web App Service  
+* Deploying application to K8s (AKS)  
+* API Deployments using APIM  
+  
 #### Part 4: Operation and maintenance of Applications in Azure
 
 Topics:
