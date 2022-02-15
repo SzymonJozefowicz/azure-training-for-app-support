@@ -125,3 +125,8 @@ API Deployments using APIM
 
 az group create --name eur-infra-sandbox-szymon-rg --location westeurope --tags Owner='Szymon Jozefowicz' Project='Azure For App Support' Environment='Sandbox' Application='Azure For App Support'
 
+
+### Sample App Insights Application
+  
+  
+[NodeJS Sample App](https://github.com/Azure-Samples/Application-Insights-Click-Plugin-Demo)
