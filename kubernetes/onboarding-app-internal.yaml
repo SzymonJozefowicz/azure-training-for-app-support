@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: onboarding
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: onboarding
+  template:
+    metadata:
+      labels:
+        app: onboarding
+    spec:
+      containers:
+      - name: onboarding
+        image: mcr.microsoft.com/azuredocs/aks-helloworld:v1
+        ports:
+        - containerPort: 80
+        env:
+        - name: TITLE
+          value: "ONBOARDING API"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: onboarding
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+  selector:
+    app: onboarding
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: onboarding
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: onboarding
