@@ -39,7 +39,8 @@ Topics:
 * [Containers Basics](https://azure.microsoft.com/en-us/overview/what-is-a-container/#overview)    
 * [Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)  
 * [Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)  
-* [Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)  
+* [Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)
+* [Security Best Practice](https://docs.microsoft.com/bs-latn-ba/azure/security/fundamentals/best-practices-and-patterns)    
 * [Monitoring and Alerts for Applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 
 #### Part 3: Deploying Applications in Azure
