@@ -36,29 +36,33 @@ Topics:
 
 #### Meeting 5 
 
-* Containers Basics  
+* [Containers Basics](https://azure.microsoft.com/en-us/overview/what-is-a-container/#overview)    
 * [Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)  
 * [Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)  
 * [Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)  
-* Monitoring and Alerts for Applications
+* [Monitoring and Alerts for Applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 
 #### Part 3: Deploying Applications in Azure
 
 Topics:
+* Code versioning using Git
 * Building application  
 * Building containerized application  
 * Deploying application to VM  
 * Deploying application to Web App Service  
 * Deploying application to K8s (AKS)  
-* API Deployments using APIM  
+* API Deployments using APIM
+* DevOps, DevSecOps, GitOps  
   
 #### Part 4: Operation and maintenance of Applications in Azure
 
 Topics:
-Deploying application to VM
-Deploying application to Web App Service
-Deploying application to K8s (AKS)
-API Deployments using APIM
+* Configuration as a code
+* Application Insights
+* Monitoring application on VM
+* Monitoring aplication on Web App Service
+* Monitring application on K8s (AKS)
+* Monitoring APIs using APIM
 
 
 #### Links:
@@ -66,6 +70,7 @@ API Deployments using APIM
 [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)  
 [Azure Concepts](https://docs.microsoft.com/en-us/learn/modules/fundamental-azure-concepts/)  
 [Powershell ARM](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-powershell)
+
 
 #### Sample code:
 ```git clone https://github.com/Azure-Samples/html-docs-hello-world.git```
