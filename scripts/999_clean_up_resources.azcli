@@ -1,5 +1,5 @@
 #Remove resource group
-az group ydelete --name eur-infra-sandbox-szymon-rg
+az group delete --name eur-infra-sandbox-szymon-rg
 
 
 

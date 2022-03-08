@@ -1,0 +1,36 @@
+#Login to Azure using az login and select subscription using az account set -s "EUR INFRA Sandbox"
+
+#Create resource group
+az group create --name eur-infra-sandbox-szymon-rg --location westeurope --tags Owner='Szymon Jozefowicz' Project='Azure For App Support' Environment='Sandbox' Application='Azure For App Support'
+
+
+#Create virtual network A
+az network vnet create --name eur-infra-sandbox-szymon-1-vnet --resource-group eur-infra-sandbox-szymon-rg --location westeurope --address-prefixes 10.0.1.0/24 --subnet-name servers --subnet-prefixes 10.0.1.0/25
+
+#Create subnet for client computers
+az network vnet subnet create --name clients --address-prefixes 10.0.1.128/26 --resource-group eur-infra-sandbox-szymon-rg --vnet-name eur-infra-sandbox-szymon-1-vnet
+
+#Create subnet for bastion
+az network vnet subnet create --name bastion --address-prefixes 10.0.1.192/26 --resource-group eur-infra-sandbox-szymon-rg --vnet-name eur-infra-sandbox-szymon-1-vnet
+
+
+#Create virtual network B
+az network vnet create --name eur-infra-sandbox-szymon-2-vnet --resource-group eur-infra-sandbox-szymon-rg --location westeurope --address-prefixes 10.0.2.0/24 --subnet-name servers --subnet-prefixes 10.0.2.0/25
+
+#Create subnet for client computers
+az network vnet subnet create --name clients --address-prefixes 10.0.2.128/25 --resource-group eur-infra-sandbox-szymon-rg --vnet-name eur-infra-sandbox-szymon-2-vnet
+
+#Create network peerings
+az network vnet peering create --resource-group eur-infra-sandbox-szymon-rg -n Vnet1ToVnet2 --vnet-name eur-infra-sandbox-szymon-1-vnet --remote-vnet eur-infra-sandbox-szymon-2-vnet  --allow-vnet-access
+az network vnet peering create --resource-group eur-infra-sandbox-szymon-rg -n Vnet2ToVnet1 --vnet-name eur-infra-sandbox-szymon-2-vnet --remote-vnet eur-infra-sandbox-szymon-1-vnet  --allow-vnet-access
+
+
+#Create Windows 2019 virtual machine with private IP only 
+az vm create --name winvm1 --resource-group eur-infra-sandbox-szymon-rg --image Win2019Datacenter --vnet-name eur-infra-sandbox-szymon-1-vnet --subnet servers --public-ip-address ""
+
+#Create Windows 2019 virtual machine with private IP only
+az vm create --name winvm2 --resource-group eur-infra-sandbox-szymon-rg --image Win2019Datacenter --vnet-name eur-infra-sandbox-szymon-2-vnet --subnet clients --public-ip-address ""
+
+
+#Create a bastion in vnet 1
+az network bastion create --location westeurope --name bastion --resource-group eur-infra-sandbox-szymon-rg --vnet-name eur-infra-sandbox-szymon-1-vnet
