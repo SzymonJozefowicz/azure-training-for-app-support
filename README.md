@@ -48,7 +48,7 @@ Topics:
 Topics:
 * Code versioning using Git
 * Building application  
-* Building containerized application  
+* [Building containerized application](https://github.com/Azure-Samples/acr-build-helloworld-node)  
 * Deploying application to VM  
 * Deploying application to Web App Service  
 * Deploying application to K8s (AKS)  
@@ -71,7 +71,7 @@ Topics:
 [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)  
 [Azure Concepts](https://docs.microsoft.com/en-us/learn/modules/fundamental-azure-concepts/)  
 [Powershell ARM](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-powershell)
-
+[Docker File Rerefrence](https://docs.docker.com/engine/reference/builder/)
 
 #### Sample code:
 ```git clone https://github.com/Azure-Samples/html-docs-hello-world.git```
