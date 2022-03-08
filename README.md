@@ -49,7 +49,7 @@ Topics:
 Topics:
 * Code versioning using Git
 * Building application  
-* [Building containerized application](https://github.com/Azure-Samples/acr-build-helloworld-node)  
+* [Building containerized application](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)  
 * Deploying application to VM  
 * Deploying application to Web App Service  
 * Deploying application to K8s (AKS)  
