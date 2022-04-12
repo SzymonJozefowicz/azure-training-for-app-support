@@ -89,3 +89,7 @@ az acr login --name [registry_name]
 az acr build --registry [registry_name] --image nginx --file Dockerfile .
 
 ```
+
+# NGINX 
+
+(NGINX Tutorial)[https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-quick-task]
