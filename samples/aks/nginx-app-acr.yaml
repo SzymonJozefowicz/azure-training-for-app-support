@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: acr-app
+  namespace: szymon2-namespace
+  labels:
+    app: acr-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: acr-app
+  template:
+    metadata:
+      labels:
+        app: acr-app
+    spec:
+      containers:
+      - name: nginx-app
+        image: eurinfrasandboxszymonacr.azurecr.io/ngix-app:latest
+        ports:
+        - containerPort: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-acr-app
+spec:
+  rules:
+  - host: 'acr-app.com'
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: azure-front
+            port:
+              number: 80
+  ingressClassName: nginx
