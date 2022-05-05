@@ -38,6 +38,7 @@ metadata:
   namespace: ingress-nginx
 data:
   allow-snippet-annotations: 'true'
+  # whitelist-source-range: 20.72.67.92/32
 ---
 # Source: ingress-nginx/templates/clusterrole.yaml
 apiVersion: rbac.authorization.k8s.io/v1
