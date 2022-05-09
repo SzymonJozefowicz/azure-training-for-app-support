@@ -50,10 +50,10 @@ Topics:
 * Code versioning using Git
 * Building application  
 * [Building containerized application](https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/)  
-* => Deploying application to VM  
+* Deploying application to VM  
 * Deploying application to Web App Service  
 * Deploying application to K8s (AKS)  
-* API Deployments using APIM
+* => API Deployments using APIM
 * DevOps, DevSecOps, GitOps  
   
 #### Part 4: Operation and maintenance of Applications in Azure
