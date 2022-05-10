@@ -125,14 +125,15 @@ Topics:
     sudo apt-get update && sudo apt-get install terraform
 
 
-
-
-
 #### Sample scripts
 
 az group create --name eur-infra-sandbox-szymon-rg --location westeurope --tags Owner='Szymon Jozefowicz' Project='Azure For App Support' Environment='Sandbox' Application='Azure For App Support'
 
 
+#### Sample Rest APIs for experiments
+
+[Rest API online enpoint for testing](https://gorest.co.in/)
+[Rest API online](https://reqbin.com/)
 ### Sample App Insights Application
   
   
