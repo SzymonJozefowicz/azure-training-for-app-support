@@ -132,8 +132,10 @@ az group create --name eur-infra-sandbox-szymon-rg --location westeurope --tags 
 
 #### Sample Rest APIs for experiments
 
-[Rest API online enpoint for testing](https://gorest.co.in/)
-[Rest API online](https://reqbin.com/)
+[Rest API online enpoint for testing](https://gorest.co.in/)  
+[Rest API online](https://reqbin.com/)  
+
+
 ### Sample App Insights Application
   
   
