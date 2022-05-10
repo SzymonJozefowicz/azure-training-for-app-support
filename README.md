@@ -134,6 +134,9 @@ az group create --name eur-infra-sandbox-szymon-rg --location westeurope --tags 
 
 [Rest API online enpoint for testing](https://gorest.co.in/)  
 [Rest API online](https://reqbin.com/)  
+[Azure API Management Documentation](https://docs.microsoft.com/en-us/azure/api-management/)   
+[Azure API Management Policy](https://docs.microsoft.com/en-us/azure/api-management/api-management-policies)   
+
 
 
 ### Sample App Insights Application
