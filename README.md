@@ -53,12 +53,13 @@ Topics:
 * Deploying application to VM  
 * Deploying application to Web App Service  
 * Deploying application to K8s (AKS)  
-* => API Deployments using APIM
+* API Deployments using APIM
 * DevOps, DevSecOps, GitOps  
   
 #### Part 4: Operation and maintenance of Applications in Azure
 
 Topics:
+# =>
 * Configuration as a code
 * Application Insights
 * Monitoring application on VM
