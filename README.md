@@ -59,8 +59,7 @@ Topics:
 #### Part 4: Operation and maintenance of Applications in Azure
 
 Topics:
-# =>
-* Configuration as a code
+* => Configuration as a code
 * Application Insights
 * Monitoring application on VM
 * Monitoring aplication on Web App Service
