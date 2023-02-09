@@ -40,6 +40,7 @@ Topics:
 * [Containers for Windows Basics](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm)  
 * [Compute Services in Azure - VM vs ACI vs AKS vs Web App vs Static Web Pages](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)  
 * [Load balancing - Frond Door, Load Balancers,Application Gateway as Traffic Managers](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)  
+* [Messaging in Azure](http://blogs.harvard.edu/samuelgerges/overview-of-azure-integration-messaging-services/)
 * [Applicaton Security](https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-app-dependencies)
 * [Security Best Practice](https://docs.microsoft.com/bs-latn-ba/azure/security/fundamentals/best-practices-and-patterns)    
 * [Monitoring and Alerts for Applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
@@ -140,6 +141,6 @@ az group create --name eur-infra-sandbox-szymon-rg --location westeurope --tags 
 
 
 ### Sample App Insights Application
-  
-  
+    
+    
 [NodeJS Sample App](https://github.com/Azure-Samples/Application-Insights-Click-Plugin-Demo)
