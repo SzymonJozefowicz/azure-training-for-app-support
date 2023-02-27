@@ -70,11 +70,14 @@ Topics:
 
 #### Links:
 [Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/architecture/framework/)
+[Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/)
+[Lading Zones](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)
 [Azure Documentation](https://docs.microsoft.com/en-us/azure/?product=popular)  
 [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)  
 [Azure Concepts](https://docs.microsoft.com/en-us/learn/modules/fundamental-azure-concepts/)  
 [Powershell ARM](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resources-powershell)
 [Docker File Rerefrence](https://docs.docker.com/engine/reference/builder/)
+[Docker Compose](https://docs.docker.com/compose/)
 
 #### Sample code:
 ```git clone https://github.com/Azure-Samples/html-docs-hello-world.git```
