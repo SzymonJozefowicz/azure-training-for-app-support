@@ -69,6 +69,7 @@ Topics:
 
 
 #### Links:
+[Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/architecture/framework/)
 [Azure Documentation](https://docs.microsoft.com/en-us/azure/?product=popular)  
 [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)  
 [Azure Concepts](https://docs.microsoft.com/en-us/learn/modules/fundamental-azure-concepts/)  
